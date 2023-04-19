@@ -1,5 +1,4 @@
 import numpy as np
-import tensorflow as tf
 import glob
 import os
 import torch
@@ -8,7 +7,7 @@ from MyVGG import MyVGG
 
 
 # Load model
-loaded_model = torch.load('Arashi_model_pre.h5', map_location=torch.device('cpu'))
+loaded_model = torch.load('Arashi_trained_model.h5', map_location=torch.device('cpu'))
 
 # data transform model
 transform_data = transforms.Compose(

@@ -1,7 +1,6 @@
 import numpy as np
 import cv2
 import copy
-import tensorflow as tf
 import glob
 import os
 import torch
